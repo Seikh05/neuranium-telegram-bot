@@ -27,6 +27,7 @@ Ask anything — get instant replies from a 70B parameter model.
 
 | Component     | Tech                |
 |---------------|---------------------|
+| Telegram Bot  | `BotFather`         |
 | Bot Framework | `aiogram`           |
 | AI Model      | `Groq` + `LLaMA 3`  |
 | Runtime       | `Python 3.11+`      |
@@ -46,8 +47,14 @@ cd neuranium-telegram-bot
 
 ### 2. Create `.env` File
 
+You need to create your own bot via [@BotFather](https://t.me/BotFather) on Telegram and get the token.
+[Watch the tutorial](https://youtu.be/RIrIXLAj8bE?si=ys35vk42cFIrZTyd). (📽️Credit: @Brain Codify)
+
+
+
+
 ```env
-TELEGRAM_BOT_TOKEN=your_telegram_bot_token
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token  # Get this from BotFather
 GROQ_API_KEY=your_groq_api_key
 ```
 
