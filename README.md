@@ -7,6 +7,10 @@
 
 # 🤖 Neuranium Telegram Bot
 
+
+👉 [Chat with Neuranium on Telegram](https://t.me/neuralnukeChatbot)
+
+
 A blazing-fast AI-powered Telegram bot built using **LLaMA 3 via Groq**, deployed on **Railway**, and managed with **aiogram**.
 
 Ask anything — get instant replies from a 70B parameter model.
